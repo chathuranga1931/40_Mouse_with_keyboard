@@ -1,0 +1,87 @@
+(edif SCHEMATIC1
+ (edifVersion 2 0 0)
+ (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status
+  (written
+   (timeStamp 2015 06 13 07 44 25)
+   (program "CAPTURE.EXE" (Version "9.2.725 CIS"))
+   (comment "Original data from OrCAD/CAPTURE schematic"))
+  (comment "")
+  (comment "Saturday, June 13, 2015")
+  (comment "F:\ELECTRONIC\2015\PROJECTS\40. MOUSE WITH KEYBOARD\SCH\4 INPUT SWITCHING CARD\4 INPUT SWITCHING CARD.DSN")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment ""))
+ (external OrCAD_LIB
+  (edifLevel 0)
+  (technology
+   (numberDefinition
+    (scale 1 1 (unit distance))))
+  (cell &14094_4
+   (cellType generic)
+   (comment "From OrCAD library M&KB.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &14 (direction INPUT))
+     (port &12 (direction INPUT))
+     (port &8 (direction INPUT))
+     (port &3 (direction OUTPUT))
+     (port &13 (direction INPUT))
+     (port &5 (direction INPUT))
+     (port &6 (direction INPUT))
+     (port &1 (direction INPUT))
+     (port &2 (direction OUTPUT))
+     (port &4 (direction INPUT))
+     (port &9 (direction OUTPUT))
+     (port &11 (direction INPUT))
+     (port &7 (direction INPUT))
+     (port &10 (direction OUTPUT)))))
+  (cell CON16A
+   (cellType generic)
+   (comment "From OrCAD library CONNECTOR.OLB")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT))
+     (port &11 (direction INOUT))
+     (port &12 (direction INOUT))
+     (port &13 (direction INOUT))
+     (port &14 (direction INOUT))
+     (port &15 (direction INOUT))
+     (port &16 (direction INOUT))))))
+ (library MAIN_LIB
+  (edifLevel 0)
+  (technology
+   (numberDefinition
+    (scale 1 1 (unit distance))))
+  (cell SCHEMATIC1
+   (cellType generic)
+   (view NetlistView
+    (viewType netlist)
+    (interface)
+    (contents
+     (instance U1
+      (viewRef NetlistView
+       (cellRef &14094_4
+        (libraryRef OrCAD_LIB))))
+     (instance J1
+      (viewRef NetlistView
+       (cellRef CON16A
+        (libraryRef OrCAD_LIB))))))))
+ (design SCHEMATIC1
+  (cellRef SCHEMATIC1
+   (libraryRef MAIN_LIB))))

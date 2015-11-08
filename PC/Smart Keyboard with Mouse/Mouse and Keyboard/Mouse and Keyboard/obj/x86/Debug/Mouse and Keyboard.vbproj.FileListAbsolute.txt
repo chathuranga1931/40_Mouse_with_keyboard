@@ -1,0 +1,19 @@
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.exe
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.pdb
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.xml
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse_and_Keyboard.Form1.resources
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse_and_Keyboard.Resources.resources
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.vbproj.GenerateResource.Cache
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.exe
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.xml
+F:\ELECTRONIC\2015\Projects\41. Maxmaa project managment system\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.pdb
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.exe.config
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.exe
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.xml
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.pdb
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.exe
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.pdb
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\bin\Debug\Mouse and Keyboard.xml
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse_and_Keyboard.Form1.resources
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse_and_Keyboard.Resources.resources
+G:\PC\Mouse and Keyboard\Mouse and Keyboard\obj\x86\Debug\Mouse and Keyboard.vbproj.GenerateResource.Cache

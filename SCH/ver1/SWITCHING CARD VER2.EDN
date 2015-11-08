@@ -1,0 +1,251 @@
+(edif SCHEMATIC1
+ (edifVersion 2 0 0)
+ (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status
+  (written
+   (timeStamp 2015 06 10 13 55 58)
+   (program "CAPTURE.EXE" (Version "9.2.725 CIS"))
+   (comment "Original data from OrCAD/CAPTURE schematic"))
+  (comment "")
+  (comment "Wednesday, June 10, 2015")
+  (comment "F:\ELECTRONIC\2015\PROJECTS\40. MOUSE WITH KEYBOARD\SCH\VER1\SWITCHING CARD VER2.DSN")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment "")
+  (comment ""))
+ (external OrCAD_LIB
+  (edifLevel 0)
+  (technology
+   (numberDefinition
+    (scale 1 1 (unit distance))))
+  (cell &14094_4
+   (cellType generic)
+   (comment "From OrCAD library M&KB.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &14 (direction INPUT))
+     (port &12 (direction INPUT))
+     (port &8 (direction INPUT))
+     (port &3 (direction OUTPUT))
+     (port &13 (direction INPUT))
+     (port &5 (direction INPUT))
+     (port &6 (direction INPUT))
+     (port &1 (direction INPUT))
+     (port &2 (direction OUTPUT))
+     (port &4 (direction INPUT))
+     (port &9 (direction OUTPUT))
+     (port &11 (direction INPUT))
+     (port &7 (direction INPUT))
+     (port &10 (direction OUTPUT)))))
+  (cell CON10A_1
+   (cellType generic)
+   (comment "From OrCAD library MOUSE AND KEYBOARD - SWITCHING CARD.DSN")
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port &1 (direction INOUT))
+     (port &2 (direction INOUT))
+     (port &3 (direction INOUT))
+     (port &4 (direction INOUT))
+     (port &5 (direction INOUT))
+     (port &6 (direction INOUT))
+     (port &7 (direction INOUT))
+     (port &8 (direction INOUT))
+     (port &9 (direction INOUT))
+     (port &10 (direction INOUT))))))
+ (library MAIN_LIB
+  (edifLevel 0)
+  (technology
+   (numberDefinition
+    (scale 1 1 (unit distance))))
+  (cell SCHEMATIC1
+   (cellType generic)
+   (view NetlistView
+    (viewType netlist)
+    (interface
+     (port SW1 (direction INPUT))
+     (port SW2 (direction INPUT))
+     (port SW3 (direction INPUT))
+     (port SW4 (direction INPUT))
+     (port SW5 (direction INPUT))
+     (port SW6 (direction INPUT))
+     (port SW7 (direction INPUT))
+     (port SW8 (direction INPUT))
+     (port C0 (direction INPUT))
+     (port C1 (direction INPUT))
+     (port C2 (direction INPUT))
+     (port C3 (direction INPUT))
+     (port C4 (direction INPUT))
+     (port C5 (direction INPUT))
+     (port C6 (direction INPUT))
+     (port C7 (direction INPUT))
+     (port R0 (direction INPUT))
+     (port R1 (direction INPUT))
+     (port R2 (direction INPUT))
+     (port R3 (direction INPUT))
+     (port R4 (direction INPUT))
+     (port R5 (direction INPUT))
+     (port R6 (direction INPUT))
+     (port R7 (direction INPUT)))
+    (contents
+     (instance U1
+      (viewRef NetlistView
+       (cellRef &14094_4
+        (libraryRef OrCAD_LIB))))
+     (instance U2
+      (viewRef NetlistView
+       (cellRef &14094_4
+        (libraryRef OrCAD_LIB))))
+     (instance J1
+      (viewRef NetlistView
+       (cellRef CON10A_1
+        (libraryRef OrCAD_LIB))))
+     (instance J2
+      (viewRef NetlistView
+       (cellRef CON10A_1
+        (libraryRef OrCAD_LIB))))
+     (instance J3
+      (viewRef NetlistView
+       (cellRef CON10A_1
+        (libraryRef OrCAD_LIB))))
+     (net SW2
+      (joined
+       (portRef &8 (instanceRef J2))
+       (portRef &5 (instanceRef U1))
+       (portRef SW2)))
+     (net SW7
+      (joined
+       (portRef &5 (instanceRef J2))
+       (portRef &6 (instanceRef U2))
+       (portRef SW7)))
+     (net SW5
+      (joined
+       (portRef &13 (instanceRef U2))
+       (portRef &7 (instanceRef J2))
+       (portRef SW5)))
+     (net SW8
+      (joined
+       (portRef &12 (instanceRef U2))
+       (portRef &9 (instanceRef J2))
+       (portRef SW8)))
+     (net SW6
+      (joined
+       (portRef &5 (instanceRef U2))
+       (portRef &3 (instanceRef J2))
+       (portRef SW6)))
+     (net SW4
+      (joined
+       (portRef &2 (instanceRef J2))
+       (portRef &12 (instanceRef U1))
+       (portRef SW4)))
+     (net SW3
+      (joined
+       (portRef &6 (instanceRef U1))
+       (portRef &6 (instanceRef J2))
+       (portRef SW3)))
+     (net SW1
+      (joined
+       (portRef &13 (instanceRef U1))
+       (portRef &4 (instanceRef J2))
+       (portRef SW1)))
+     (net GND
+      (joined
+       (portRef &7 (instanceRef U2))
+       (portRef &7 (instanceRef U1))
+       (portRef &10 (instanceRef J2))
+       (portRef &10 (instanceRef J1))
+       (portRef &10 (instanceRef J3))))
+     (net (rename PLUS5V "+5V")
+      (joined
+       (portRef &14 (instanceRef U2))
+       (portRef &14 (instanceRef U1))
+       (portRef &1 (instanceRef J2))
+       (portRef &1 (instanceRef J1))
+       (portRef &1 (instanceRef J3))))
+     (net R2
+      (joined
+       (portRef &9 (instanceRef J1))
+       (portRef &9 (instanceRef U1))
+       (portRef R2)))
+     (net C3
+      (joined
+       (portRef &3 (instanceRef J1))
+       (portRef &11 (instanceRef U1))
+       (portRef C3)))
+     (net C2
+      (joined
+       (portRef &7 (instanceRef J1))
+       (portRef &8 (instanceRef U1))
+       (portRef C2)))
+     (net R3
+      (joined
+       (portRef &5 (instanceRef J1))
+       (portRef &10 (instanceRef U1))
+       (portRef R3)))
+     (net R0
+      (joined
+       (portRef &2 (instanceRef J1))
+       (portRef &2 (instanceRef U1))
+       (portRef R0)))
+     (net C1
+      (joined
+       (portRef &8 (instanceRef J1))
+       (portRef &4 (instanceRef U1))
+       (portRef C1)))
+     (net R1
+      (joined
+       (portRef &6 (instanceRef J1))
+       (portRef &3 (instanceRef U1))
+       (portRef R1)))
+     (net C0
+      (joined
+       (portRef &4 (instanceRef J1))
+       (portRef &1 (instanceRef U1))
+       (portRef C0)))
+     (net C5
+      (joined
+       (portRef &4 (instanceRef U2))
+       (portRef &8 (instanceRef J3))
+       (portRef C5)))
+     (net C4
+      (joined
+       (portRef &1 (instanceRef U2))
+       (portRef &4 (instanceRef J3))
+       (portRef C4)))
+     (net R5
+      (joined
+       (portRef &3 (instanceRef U2))
+       (portRef &6 (instanceRef J3))
+       (portRef R5)))
+     (net R4
+      (joined
+       (portRef &2 (instanceRef U2))
+       (portRef &2 (instanceRef J3))
+       (portRef R4)))
+     (net C7
+      (joined
+       (portRef &11 (instanceRef U2))
+       (portRef &3 (instanceRef J3))
+       (portRef C7)))
+     (net C6
+      (joined
+       (portRef &8 (instanceRef U2))
+       (portRef &7 (instanceRef J3))
+       (portRef C6)))
+     (net R7
+      (joined
+       (portRef &10 (instanceRef U2))
+       (portRef &5 (instanceRef J3))
+       (portRef R7)))
+     (net R6
+      (joined
+       (portRef &9 (instanceRef U2))
+       (portRef &9 (instanceRef J3))
+       (portRef R6)))))))
+ (design SCHEMATIC1
+  (cellRef SCHEMATIC1
+   (libraryRef MAIN_LIB))))

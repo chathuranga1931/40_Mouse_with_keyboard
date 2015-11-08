@@ -1,0 +1,11 @@
+_InterruptEn: CODE, 7827 0 19
+___ltdiv: CODE, 8096 0 96
+_main: CODE, 4543 0 4294966849
+_KeySend: CODE, 4104 0 52
+___ltmod: CODE, 1957 0 81
+_isr: CODE, 8018 0 78
+_read_a2d_value: CODE, 7948 0 70
+_MouseSendLC: CODE, 7846 0 51
+_MouseSendRC: CODE, 7897 0 51
+_a2d_read: CODE, 4156 0 124
+Total: 175

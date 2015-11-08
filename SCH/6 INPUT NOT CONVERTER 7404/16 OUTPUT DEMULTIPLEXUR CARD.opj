@@ -1,0 +1,27 @@
+(ExpressProject "16 OUTPUT DEMULTIPLEXUR CARD"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\16 output demultiplexur card.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\16 output demultiplexur card.dsn")
+      (Path "Design Resources" ".\16 output demultiplexur card.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" ".\16 output demultiplexur card.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 127 327 94 485"))
+      (Tab 0))))

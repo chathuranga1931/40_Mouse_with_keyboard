@@ -1,0 +1,47 @@
+(ExpressProject "KEY BOARD INTERFACE"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\key board interface.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (Netlist_TAB "5")
+    (LAYOUT_Netlist_File "KEY BOARD INTERFACE.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0"))
+  (Folder "Outputs"
+    (File ".\key board interface.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "F:\ELECTRONIC\2015\Projects\40. Mouse with keyboard\SCH\KEY BOARD INTERFACE CARD VER1\key board interface.dsn")
+      (Path "Design Resources"
+         "F:\ELECTRONIC\2015\Projects\40. Mouse with keyboard\SCH\KEY BOARD INTERFACE CARD VER1\key board interface.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "F:\ELECTRONIC\2015\Projects\40. Mouse with keyboard\SCH\KEY BOARD INTERFACE CARD VER1\key board interface.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "F:\ELECTRONIC\2015\Projects\40. Mouse with keyboard\SCH\KEY BOARD INTERFACE CARD VER1\key board interface.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 391"))
+      (Tab 0))))

@@ -1,0 +1,15 @@
+_atod_init: CODE, 2983 0 9
+_init_sys: CODE, 2992 0 21
+_main: CODE, 3829 0 4294965515
+_nop: CODE, 2979 0 1
+___lwdiv: CODE, 3380 0 80
+_isr: CODE, 3460 0 178
+_read_a2d_value: CODE, 3232 0 70
+_lcd_add: CODE, 3302 0 78
+___lwmod: CODE, 3164 0 68
+_a2d_read: CODE, 29 0 98
+_rs232_init: CODE, 3013 0 22
+_eeprom_temp: CODE, 3072 0 43
+_eeprom_write: CODE, 3115 0 49
+_lcd_init: CODE, 3638 0 191
+Total: 4294966423
